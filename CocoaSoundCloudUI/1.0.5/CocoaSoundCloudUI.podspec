@@ -17,12 +17,7 @@ Pod::Spec.new do |s|
 
   s.resource = "SoundCloud.bundle"
 
-  s.framework = 'AddressBook'
-  s.framework = 'AddressBookUI'
-  s.framework = 'QuartzCore'
-  s.framework = 'CoreGraphics'
-  s.framework = 'CoreText'
-  s.framework = 'CoreLocation'
+  s.framework = 'AddressBook','AddressBookUI','QuartzCore','CoreGraphics','CoreText','CoreLocation'
 
   s.dependency 'CocoaSoundCloudAPI', '~> 1.0.1'
   s.dependency 'OHAttributedLabel'
